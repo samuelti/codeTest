@@ -92,6 +92,7 @@ function submit() {
     console.log(highscore);
     localStorage.setItem("userName", userName);
     localStorage.setItem("score", currentScore);
+    document.getElementById("confirm").innerHTML = "Your score has been saved! thank you."
 }
 
 function showScore() {
