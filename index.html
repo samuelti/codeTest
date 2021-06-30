@@ -1,0 +1,33 @@
+<html>
+<link rel="stylesheet" type="text/css" href="./style.css"/>
+<title>Code Test</title>
+<h1>The Coding Test!</h1>
+
+    <div id="startButton"><button onclick="startQuiz()">Start?</button></div>
+    
+    <div id="timer">
+
+    </div>
+
+    <div id="quiz">
+        <h2 id="questions"></h2>
+        <button onclick="evaluateAnswer(1)" id="answer1"></button>
+        <br>
+        <br>
+        <button onclick="evaluateAnswer(2)" id="answer2"></button>
+        <br>
+        <br>
+        <button onclick="evaluateAnswer(3)" id="answer3"></button>
+    </div>
+    <div id="enterName">
+        <h3>Your score:</h3>
+        <p id="scores"></p>
+        <p>Enter your name!</p>
+        <input type="text" id="input"></input>
+        <button onclick="submit()">submit</button>
+        
+    </div>
+
+<p id="rightWrong"> </p>
+<script src = "./javascript.js"></script>
+</html>
