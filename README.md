@@ -1,1 +1,1 @@
-This applicat
+This application uses a wipe variety of new programming tools. Firstly the page uses dynamic HTML elements, and updates numerous times. Each time the "start" button is pushed the website shows the quiz, and when the quiz is over the quiz disapears and is replaced by a prompt to submit a name. This is where the second new technology comes in. Local storage stores the name and score of the user, allowing for access in the future (I'm working on that, the current build has data storage, but no retrival).
